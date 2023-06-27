@@ -1,0 +1,9 @@
+on:
+  repository_dispatch:
+    types: [dispatch_test]
+
+jobs:
+  echo_body:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ${{github.event.client_payload}}
