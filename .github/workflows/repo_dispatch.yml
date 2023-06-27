@@ -5,5 +5,7 @@ on:
 jobs:
   echo_body:
     runs-on: ubuntu-latest
+    env:
+      PAYLOAD: ${{github.event.client_payload}}
     steps:
-      - run: echo ${{toJSON(github.event.client_payload)}}
+      - run: echo $PAYLOAD
