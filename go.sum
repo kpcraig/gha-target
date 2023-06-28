@@ -1,0 +1,6 @@
+github.com/go-faker/faker/v4 v4.0.0 h1:tfgFaeizVlYGOS1tVo/vcWcKhkNgG1NWm8ibRG0f+aQ=
+github.com/go-faker/faker/v4 v4.0.0/go.mod h1:uuNc0PSRxF8nMgjGrrrU4Nw5cF30Jc6Kd0/FUTTYbhg=
+github.com/kpcraig/gha-source v0.0.0-20230628142354-e9229c386e74 h1:H0+1p4tIOsOpYGt1ieI874c7YPrSJ/BKqk35vrEen/8=
+github.com/kpcraig/gha-source v0.0.0-20230628142354-e9229c386e74/go.mod h1:qJ/Ff4d5bDVaucubHLrA73DuBs7sc6Qm6kBo0vYw+r4=
+golang.org/x/text v0.3.7 h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=
+golang.org/x/text v0.3.7/go.mod h1:u+2+/6zg+i71rQMx5EYifcz6MCKuco9NR6JIITiCfzQ=
