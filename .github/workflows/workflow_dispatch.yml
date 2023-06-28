@@ -1,0 +1,18 @@
+on:
+  workflow_dispatch:
+    inputs:
+      sha:
+        description: the sha hash of the commit of the plugin
+        required: true
+      repo:
+        description: the name of the repo, will be prepended with github.com/kpcraig
+        required: true
+
+jobs:
+  echo_body:
+    runs-on: ubuntu-latest
+    steps:
+      - name: foo
+        run: |
+          echo "${{inputs.sha}}"
+          echo "${{inputs.repo}}"
