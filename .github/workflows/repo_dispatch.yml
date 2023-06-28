@@ -8,4 +8,15 @@ jobs:
     env:
       PAYLOAD: '${{toJSON(github.event.client_payload)}}'
     steps:
-      - run: echo $PAYLOAD
+      - name: foo
+        run: |
+          echo "${{github.event.client_payload.sha}}"
+          echo "${{github.event.client_payload.repo}}"
+
+#  {
+#    "event_type": "plugin_update_event",
+#    "client_payload": {
+#        "sha":"abcdef",
+#        "repo":"vault-plugin-database-snowflake"
+#    }
+#  }
